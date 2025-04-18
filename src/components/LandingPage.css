@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(95, 158, 160, 0.316);
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  padding: 20px 20px;
+}
+.logo img{
+  border-radius: 50%;
+}
+.banner img{
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: min-content;
+  background-attachment: fixed;
+}
+.lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 3rem
+}
+.lists li a{
+  text-decoration: none;
+  color:rebeccapurple;
+  font-size: 1.2rem;
+}
+.cards{
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  height: auto;
+  grid-template-areas: "a b c d e"
+                        "f g h i j";
+  gap: 20px;
+  padding: 20px 20px;
+  border-radius: 3px;
+}
+
+
+.card img{
+  border-radius: 5px;
+}
+.card-1 {
+  grid-area: a;
+  
+
+}
+.card-2 {
+  grid-area: b;
+  
+}
+.card-3{
+  grid-area: c;
+}     
+.card-4{
+  grid-area: d;
+}
+.card-5{
+  grid-area: e;
+}
+.card-6{
+  grid-area: f;
+}
+.card-7{
+  grid-area: g;
+}
+
+.card-8{
+  grid-area: h;
+}
+.card-9{
+  grid-area: i;
+}
+.card-10{
+  grid-area: j;
+}
+footer{
+  text-align: center;
+  padding: 20px;
+  font-size: 1.8rem;
+  color: rebeccapurple;
+  height: 60px;
+  background-color: rgba(139, 69, 19, 0.149);
+  
+
+
+}
